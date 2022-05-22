@@ -36,7 +36,32 @@
 
         <!--Hero/Jumbotron-->
         <section>
-
+            <nav>
+                <h3>Get Started Today</h3>
+                <p>Fill out this form and one of our trainers will schedule a consult.</p>
+                <!--Add form element-->
+                <form>
+                    <label for="name">Enter full name:</label>
+                    <input type="text" placeholder="Your name" name="name" id="name"/>
+                    <label for="email">Enter your email address:</label>
+                    <input type="email" placeholder="Your email address" name="email" id="email"/>
+                    <label for="phone">Enter your phone number:</label>
+                    <input type="tel" placeholder="Your phone number" name="phone" id="phone"/>
+                    <p>Have you worked out with a trainer before?
+                        <input type="radio" name="trainer-confirm" id="trainer-yes"/>
+                        <label for="trainer-yes">Yes</label>
+                        <input type="radio" name="trainer-confirm" id="trainer-no"/>
+                        <label for="trainer-no">No</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="old-enough" name="acknowledge"/>
+                        <label for="old-enough">I acknowledge that I am at least 18 years of age.</label>
+                    </p>
+                    <button type="submit">
+                        Get running!
+                    </button>
+                </form>
+            </nav>
         </section>
 
         <!--"What We Do" Section-->
