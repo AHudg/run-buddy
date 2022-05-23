@@ -214,6 +214,7 @@ section {
     color: #fce138;
     overflow: auto;
     /* this is a way of providing block formatting context to the element article; it tells the article to search for the size of the context within it*/
+    /* it allows the parent element to become aware of its children elements and stretch its dimensions to contain them */
 }
 
 .trainer img {
@@ -242,3 +243,6 @@ section {
     font-size: 17px;
     line-height: 1.3;
 }
+/*End of Styling The Trainers */
+
+/*Styling Reaching Out Section */
